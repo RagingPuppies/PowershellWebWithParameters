@@ -1,3 +1,5 @@
+Add-Type -AssemblyName System.Web
+
 function ParametersParser($url){
             $rawUrl = [string]$url
             $Parameters = @{}
